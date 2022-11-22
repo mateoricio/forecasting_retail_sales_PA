@@ -21,16 +21,11 @@ The procedure was clear, first we chose a product (iberian ham, as well spaniard
 
 After this preprocessing of the data we applied two different models:
 
-* Random Forest: Since its simplicity and well performence this was our first choice. In order to increase its speed we decided to put the hyperparameter of the stimators to 80 instead of 100 since we observe practicly the same performance in the half of the time.
+* Random Forest: Since its simplicity and well performence this was our first choice. In order to increase its speed we decided to put the hyperparameter of the stimators to 80 instead of 100 since we observe practicly the same performance in the half of the time. The results we obtained in _32.8s_
 
-![random_forest_prediction](https://user-images.githubusercontent.com/34031559/203386313-a487e2a5-7a1d-41a5-9f86-e4a755d6432b.png)
-
-* Support Vector Machine: In \order to check if we could have a similar performance with a even faster model we applied the support vector regressor. After play with the hyperparameters we put regulation parameter _C_ at 0.75 and we observe a very nice performance in even lower time than the Random Forest model.
-
-![SVM_prediction](https://user-images.githubusercontent.com/34031559/203386213-a026660e-7453-4d57-a48a-f20e97c2fe73.png)
+![random_forest_prediction](https://user-images.githubusercontent.com/34031559/203390999-038e07c3-0901-46bd-9a63-c432297c2c50.png)
 
 
+* Support Vector Machine: In \order to check if we could have a similar performance with a even faster model we applied the support vector regressor. After play with the hyperparameters we put regulation parameter _C_ at 0.75 and we observe a very nice performance in even lower time than the Random Forest model. In this case we obtained our results in _3.5s_
 
-
-
-
+![SVM_prediction](https://user-images.githubusercontent.com/34031559/203391237-47481c69-aec2-4655-ab56-a386ed4088c3.png)
