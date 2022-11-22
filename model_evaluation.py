@@ -45,5 +45,3 @@ def calculoEvaluacionModelo(modelo,df,norm):
          'Births actually spotted': ySpotted
         },index=xPredicted)
     prediction.plot()
-
-    return prediction;
